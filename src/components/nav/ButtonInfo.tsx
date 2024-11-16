@@ -21,7 +21,7 @@ export default function ButtonInfo() {
       <ModalTemplate modalVisible={modalVisible} onRequestClose={closeModal}>
         <View style={styles.modalContent}>
           <View style={styles.modalHeader}>
-            <Text style={styles.modalTitle}>DAMAS PAIA</Text>
+            <Text style={styles.modalTitle}>DAMAS ONLINE</Text>
             <ButtonBig onPress={closeModal} style={styles.closeButton}>
               X
             </ButtonBig>

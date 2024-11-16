@@ -13,7 +13,7 @@ export default function HeaderAuth() {
       <Text style={styles.text}>DAMAS</Text>
       <View style={styles.subContainer}>
         <Image source={require('@/assets/icon.png')} style={styles.logo} />
-        <Text style={styles.text}>PAIA</Text>
+        <Text style={styles.text2}>ONLINE</Text>
         <Image source={require('@/assets/icon.png')} style={styles.logo} />
       </View>
     </View>
@@ -39,6 +39,15 @@ const stylesPaia = createStyleSheet((theme) => ({
     color: theme.colors.textPri,
     fontSize: 68 * sizeAll,
     marginEnd: 3 * sizeAll,
+    textAlign: 'center',
+    fontWeight: 'bold',
+    textAlignVertical: 'center',
+  },
+  text2: {
+    color: theme.colors.textPri,
+    fontSize: 38 * sizeAll,
+    paddingHorizontal: 2 * sizeAll,
+    marginEnd: 2 * sizeAll,
     textAlign: 'center',
     fontWeight: 'bold',
     textAlignVertical: 'center',

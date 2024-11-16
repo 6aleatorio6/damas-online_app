@@ -1,6 +1,6 @@
 export default ({ config }) => ({
   ...config,
-  name: 'Damas Paia',
+  name: 'Damas Online',
   slug: 'Damas-Paia',
   scheme: 'damaspaia',
   version: (process.env.EXPO_PUBLIC_APP_VERSION || 'v0.0.0').replace('v', ''),
@@ -31,7 +31,7 @@ export default ({ config }) => ({
       {
         appID: process.env.FACEBOOK_APP_ID || '123456789',
         clientToken: process.env.FACEBOOK_CLIENT_TOKEN || '123456789',
-        displayName: 'Damas Paia',
+        displayName: 'Damas Online',
         scheme: 'damaspaia',
         advertiserIDCollectionEnabled: false,
         autoLogAppEventsEnabled: false,
