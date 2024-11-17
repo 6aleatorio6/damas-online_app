@@ -8,24 +8,22 @@
 
 ## Descrição
 
-Este é o repositório frontend mobile do projeto **Damas Paia**. Desenvolvido com React Native, Unistyles 2.0, Socket.io e TypeScript, oferece uma interface nativa e moderna.
+Este é o repositório do app desenvolvido com React Native, Unistyles 2.0, Socket.io e TypeScript de um jogo de Damas Online.
 
 | Plataforma                                                   | Tecnologia   | Status       |
 | ------------------------------------------------------------ | ------------ | ------------ |
-| [Backend](https://github.com/6aleatorio6/Damas-Paia_backend) | NestJS       | Em andamento |
-| [Mobile](https://github.com/6aleatorio6/Damas-Paia_mobile)   | React Native | Em andamento |
+| [Backend](https://github.com/6aleatorio6/damas-online_backend) | NestJS       | Finalizado   |
+| [Mobile](https://github.com/6aleatorio6/damas-online_app)   | React Native | Finalizado   |
 | Web                                                          | React        | Não iniciado |
 
 
 ## Downloads
 
-Baixe a última versão do app: [damas-paia_release](https://github.com/6aleatorio6/Damas-Paia_mobile/releases/latest/download/damas-paia_release.apk)
-
-> **Observação:** O backend está hospedado no Heroku através do plano de estudante, e pretendo mantê-lo online até **01/04/2025**.
+Baixe a última versão do app: [damas-paia_release](https://github.com/6aleatorio6/damas-online_mobile/releases/latest/download/damas-paia_release.apk)
 
 ## Funcionalidades do Mobile
 
-O **DamasPaia Mobile** se integra perfeitamente com todas as [funcionalidades que o backend oferece](https://github.com/6aleatorio6/Damas-Paia_backend?tab=readme-ov-file#funcionalidades).
+O app se integra perfeitamente com todas as [funcionalidades que o backend oferece](https://github.com/6aleatorio6/damas-online_backend?tab=readme-ov-file#funcionalidades).
 
 ### 1. Autenticação Convencional
 
@@ -38,7 +36,7 @@ A autenticação convencional permite que os usuários criem suas contas e faça
 
 ### 2. Login por OAuth2
 
-Para uma experiência de autenticação ainda mais rápida e conveniente, o **DamasPaia Mobile** oferece a opção de login e cadastro através de provedores de OAuth2, como Google, Facebook e Discord.
+Para uma experiência de autenticação ainda mais rápida e conveniente, o app oferece a opção de login e cadastro através de provedores de OAuth2, como Google, Facebook e Discord.
 
 <p>
   <img src="https://gist.githubusercontent.com/6aleatorio6/ed8cc379ee1ad319cca1dd8604f006de/raw/577237b4ff2a2dd8244ccfd1c2c5c8e27441fcd2/google.gif" alt="Login com Google" width="180" />
@@ -151,8 +149,3 @@ Para executar o aplicativo localmente, siga os passos abaixo:
      npx expo run:android
      ```
 
-## Criador
-
-- **Autor:** Leonardo L. Felix
-  - **Email:** [leonardolfelix12@gmail.com](mailto:leonardolfelix12@gmail.com)
-  - **GitHub:** [6aleatorio6](https://www.github.com/6aleatorio6)
