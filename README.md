@@ -3,7 +3,7 @@
 </p>
 
 <p>
-    <p align="center">Jogo de Damas online multiplataforma</p>
+    <p align="center">Jogo de Damas online</p>
 </p>
 
 ## Descrição
@@ -14,12 +14,11 @@ Este é o repositório do app desenvolvido com React Native, Unistyles 2.0, Sock
 | ------------------------------------------------------------ | ------------ | ------------ |
 | [Backend](https://github.com/6aleatorio6/damas-online_backend) | NestJS       | Finalizado   |
 | [Mobile](https://github.com/6aleatorio6/damas-online_app)   | React Native | Finalizado   |
-| Web                                                          | React        | Não iniciado |
 
 
 ## Downloads
 
-Baixe a última versão do app: [damas-paia_release](https://github.com/6aleatorio6/damas-online_mobile/releases/latest/download/damas-paia_release.apk)
+Baixe a última versão do app: [damas-paia_release](https://github.com/6aleatorio6/damas-online_app/releases/latest/download/damas-online_release.apk)
 
 ## Funcionalidades do Mobile
 
